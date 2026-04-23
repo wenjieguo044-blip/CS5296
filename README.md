@@ -49,22 +49,20 @@ CS5296/
 
 `results/` contains raw logs and summary CSV files from the benchmark runs.
 
-## Cloud Setup
+## Software and Hardware Dependencies
 
-Create four EC2 instances:
+Hardware and cloud environment:
 
-1. One client instance.
-2. Three database node instances: `node1`, `node2`, and `node3`.
+- AWS EC2 account.
+- Four EC2 instances:
+  - one client instance
+  - three database node instances named `node1`, `node2`, and `node3`
+- The three database nodes should use the same instance type in one benchmark round.
+- Tested database node types: `c5.large`, `m5.large`, and `r5.large`.
+- All database nodes should be in the same Availability Zone.
+- The experiments were run on Amazon Linux 2023.
 
-For each benchmark round, the three database nodes should use the same instance type. For example, use three `c5.large` nodes for the `c5.large` test, then repeat with three `m5.large` nodes and three `r5.large` nodes.
-
-All database nodes should be in the same Availability Zone.
-
-The experiments were run on Amazon Linux 2023.
-
-## Software Requirements
-
-The scripts install or use the following tools:
+Software:
 
 - CockroachDB `v23.1.11`
 - sysbench `1.1.0-3ceba0b`
@@ -74,11 +72,37 @@ The scripts install or use the following tools:
 - SSH
 - Python 3
 
-## SSH Key Setup
+The scripts in `CS5296/code/` install most required software on the EC2 instances.
 
-Download the private key for the EC2 key pair selected when creating the instances.
+## Workflow Scripts
 
-Copy the key to the client instance under `$HOME/.ssh/`:
+The project workflow is built from these scripts:
+
+- `config.sh`: stores node IP addresses, SSH settings, CockroachDB settings, workload parameters, and result directory settings.
+- `bootstrap_ssh.sh`: configures SSH access from the client to the three database nodes.
+- `install_all.sh`: installs CockroachDB, sysbench, and monitoring tools.
+- `deploy_cluster.sh`: starts the three-node CockroachDB cluster. Use `--clean` for a fresh run.
+- `prepare_db.sh`: creates the `sysbench` database and loads benchmark tables.
+- `collect_metrics_start.sh`: starts CPU, memory, I/O, and network monitoring.
+- `collect_metrics_stop.sh`: stops monitoring.
+- `run_benchmark.sh`: runs all workload and thread combinations, collects logs, and calls the parser.
+- `parse_results.py`: parses `sysbench.log` files and writes `summary.csv`.
+- `stop_cluster.sh`: stops the CockroachDB cluster.
+- `cleanup_db.sh`: removes old CockroachDB data when needed.
+
+## Inputs Required to Run the Workflow
+
+Before running the workflow, prepare these inputs:
+
+- Public or private IP addresses for `client`, `node1`, `node2`, and `node3`.
+- The EC2 SSH username, usually `ec2-user` on Amazon Linux 2023.
+- The private key file (`.pem`) selected and downloaded when creating the EC2 instances.
+- The SSH key path on the client instance.
+- The benchmark instance tag, for example `c5_large_run1`.
+- Benchmark parameters in `config.sh`, including table count, table size, thread list, workloads, runtime, and report interval.
+- The target EC2 instance type for the current run: `c5.large`, `m5.large`, or `r5.large`.
+
+Download the private key for the EC2 key pair selected when creating the instances. Copy the key to the client instance under `$HOME/.ssh/`:
 
 ```bash
 scp -i /path/to/local/key.pem /path/to/local/key.pem ec2-user@CLIENT_PUBLIC_IP:~/.ssh/
@@ -93,7 +117,7 @@ chmod 600 ~/.ssh/key.pem
 
 Then set `SSH_KEY` in `code/config.sh` to the key path on the client instance.
 
-## Configuration
+## Configuration Before Running
 
 Edit `code/config.sh` before running the experiment:
 
@@ -134,7 +158,14 @@ REPORT_INTERVAL=10
 
 Update `INSTANCE_TAG` for each run so that results are saved in a separate directory.
 
-## Reproduction Steps
+## How to Prepare and Run the Experiment
+
+First create four EC2 instances:
+
+1. One client instance.
+2. Three database node instances: `node1`, `node2`, and `node3`.
+
+For each benchmark round, the three database nodes should use the same instance type. For example, use three `c5.large` nodes for the `c5.large` test, then repeat with three `m5.large` nodes and three `r5.large` nodes.
 
 Run the following commands from the `CS5296/code/` directory:
 
@@ -180,7 +211,7 @@ Repeat the process for each EC2 instance type:
 
 Each instance type should be tested three times.
 
-## Output Files
+## Expected Results After Evaluation
 
 Each run produces a result directory under `CS5296/results/`, such as:
 
@@ -209,3 +240,62 @@ python3 parse_results.py RESULT_DIR
 ```
 
 It contains the main sysbench metrics, including TPS, QPS, average latency, P95 latency, ignored errors, and reconnects.
+
+For each workload/thread setting, expect:
+
+- one `sysbench.log`
+- one `mpstat.log` per database node
+- one `sar_net.log` per database node
+- one `vmstat.log` per database node
+- one `cockroach.log` per database node
+
+For each run directory, expect:
+
+- one `summary.csv`
+
+The `summary.csv` file should contain rows for:
+
+- `oltp_read_only` with 4, 8, 16, and 32 threads
+- `oltp_read_write` with 4, 8, 16, and 32 threads
+
+## Expected Outputs for Validating the Report Results
+
+The following values are the main outputs used to validate the paper's results. Small differences can occur if the experiment is rerun on new EC2 instances, but the overall trend should be similar.
+
+Peak throughput and cost efficiency:
+
+| Workload | Instance | Peak TPS | Cluster USD/h | TPS per USD/h |
+|---|---:|---:|---:|---:|
+| read-only | `c5.large` | 108.51 | 0.255 | 425.5 |
+| read-only | `m5.large` | 84.96 | 0.288 | 295.0 |
+| read-only | `r5.large` | 86.82 | 0.378 | 229.7 |
+| read-write | `c5.large` | 70.64 | 0.255 | 277.0 |
+| read-write | `m5.large` | 67.50 | 0.288 | 234.4 |
+| read-write | `r5.large` | 46.78 | 0.378 | 123.7 |
+
+System metrics at 32 threads:
+
+| Workload | Instance | CPU % | Free Memory GiB | I/O Wait % | Cluster Network MB/s |
+|---|---:|---:|---:|---:|---:|
+| read-only | `c5.large` | 51.5 | 1.49 | 3.3 | 4.22 |
+| read-only | `m5.large` | 44.8 | 4.82 | 3.7 | 3.39 |
+| read-only | `r5.large` | 47.1 | 12.48 | 1.6 | 2.92 |
+| read-write | `c5.large` | 62.5 | 1.36 | 11.6 | 5.43 |
+| read-write | `m5.large` | 56.8 | 4.63 | 11.5 | 4.69 |
+| read-write | `r5.large` | 61.1 | 12.23 | 7.2 | 4.53 |
+
+The expected high-level conclusion is:
+
+- `c5.large` should have the best throughput and cost efficiency.
+- `m5.large` should be close to `c5.large` in the 32-thread read-write workload.
+- `r5.large` should keep much more free memory, but it should not improve throughput for this dataset.
+- Read-write workloads should show higher latency and higher I/O wait than read-only workloads.
+
+The cost model counts only the three database nodes and excludes the client node.
+
+## Notes
+
+- The benchmark uses insecure CockroachDB mode for simplicity.
+- The tested cluster is single-AZ, so the results do not include cross-AZ latency.
+- The dataset is 800,000 rows. Larger datasets may change the memory behavior.
+- EC2 prices depend on region and date.
