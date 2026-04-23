@@ -1,0 +1,485 @@
+Linux 6.1.166-197.305.amzn2023.x86_64 (ip-172-31-43-117.ec2.internal) 	04/21/26 	_x86_64_	(2 CPU)
+
+17:43:01        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:02           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:02         ens5    547.00    519.00    280.74    238.45      0.00      0.00      0.00      0.00
+
+17:43:02        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:03           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:03         ens5    569.00    470.00   1129.46    160.82      0.00      0.00      0.00      0.00
+
+17:43:03        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:04           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:04         ens5    454.00    388.00   1123.41    125.98      0.00      0.00      0.00      0.00
+
+17:43:04        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:05           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:05         ens5   1607.00   1702.00   2435.34    542.17      0.00      0.00      0.00      0.00
+
+17:43:05        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:06           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:06         ens5   1293.00   1313.00    352.13    472.07      0.00      0.00      0.00      0.00
+
+17:43:06        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:07           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:07         ens5    609.00    575.00   1142.16    169.72      0.00      0.00      0.00      0.00
+
+17:43:07        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:08           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:08         ens5    667.00    685.00   1156.19    202.18      0.00      0.00      0.00      0.00
+
+17:43:08        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:09           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:09         ens5   1006.00   1106.00   1246.02    335.89      0.00      0.00      0.00      0.00
+
+17:43:09        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:10           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:10         ens5    663.00    661.00   1196.08    206.34      0.00      0.00      0.00      0.00
+
+17:43:10        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:11           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:11         ens5    792.00    729.00   1289.32    300.77      0.00      0.00      0.00      0.00
+
+17:43:11        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:12           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:12         ens5    549.00    663.00    266.19    218.97      0.00      0.00      0.00      0.00
+
+17:43:12        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:13           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:13         ens5    714.00    737.00   1162.35    203.38      0.00      0.00      0.00      0.00
+
+17:43:13        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:14           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:14         ens5   1235.00   1384.00   1308.52    424.64      0.00      0.00      0.00      0.00
+
+17:43:14        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:15           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:15         ens5    801.00    622.00   2190.08    216.60      0.00      0.00      0.00      0.00
+
+17:43:15        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:16           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:16         ens5    440.00    492.00    108.13    151.51      0.00      0.00      0.00      0.00
+
+17:43:16        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:17           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:17         ens5    741.00    709.00   1161.21    204.81      0.00      0.00      0.00      0.00
+
+17:43:17        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:18           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:18         ens5    937.00    994.00   1227.71    301.62      0.00      0.00      0.00      0.00
+
+17:43:18        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:19           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:19         ens5    571.00    637.00    128.70    179.16      0.00      0.00      0.00      0.00
+
+17:43:19        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:20           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:20         ens5    735.00    520.00   2193.26    165.20      0.00      0.00      0.00      0.00
+
+17:43:20        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:21           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:21         ens5    696.00    724.00   1259.87    290.37      0.00      0.00      0.00      0.00
+
+17:43:21        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:22           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:22         ens5    923.00   1110.00    363.31    368.41      0.00      0.00      0.00      0.00
+
+17:43:22        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:23           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:23         ens5   1185.00   1314.00   1281.11    373.47      0.00      0.00      0.00      0.00
+
+17:43:23        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:24           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:24         ens5   1160.00   1175.00   1323.25    422.75      0.00      0.00      0.00      0.00
+
+17:43:24        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:25           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:25         ens5    802.00    704.00   1197.82    243.23      0.00      0.00      0.00      0.00
+
+17:43:25        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:26           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:26         ens5    581.00    572.00   1129.80    155.89      0.00      0.00      0.00      0.00
+
+17:43:26        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:27           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:27         ens5   1360.00   1536.00   1344.41    459.52      0.00      0.00      0.00      0.00
+
+17:43:27        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:28           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:28         ens5    791.00    714.00   1190.03    228.87      0.00      0.00      0.00      0.00
+
+17:43:28        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:29           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:29         ens5    876.00    828.00   1224.71    286.14      0.00      0.00      0.00      0.00
+
+17:43:29        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:30           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:30         ens5    733.00    739.00   1195.33    222.96      0.00      0.00      0.00      0.00
+
+17:43:30        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:31           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:31         ens5   1116.00   1176.00   1355.81    405.04      0.00      0.00      0.00      0.00
+
+17:43:31        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:32           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:32         ens5   1125.00   1056.00   1444.65    361.25      0.00      0.00      0.00      0.00
+
+17:43:32        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:33           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:33         ens5    930.00    887.00   1244.85    309.59      0.00      0.00      0.00      0.00
+
+17:43:33        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:34           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:34         ens5    577.00    518.00   1134.04    157.56      0.00      0.00      0.00      0.00
+
+17:43:34        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:35           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:35         ens5    989.00   1069.00   1244.58    325.02      0.00      0.00      0.00      0.00
+
+17:43:35        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:36           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:36         ens5    659.00    763.00    633.13    210.74      0.00      0.00      0.00      0.00
+
+17:43:36        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:37           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:37         ens5    623.00    409.00   2619.03    106.80      0.00      0.00      0.00      0.00
+
+17:43:37        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:38           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:38         ens5    617.00    275.00   3542.28     62.43      0.00      0.00      0.00      0.00
+
+17:43:38        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:39           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:39         ens5    746.00    304.00   4377.45     84.54      0.00      0.00      0.00      0.00
+
+17:43:39        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:40           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:40         ens5    488.00    246.00   2381.48     64.65      0.00      0.00      0.00      0.00
+
+17:43:40        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:41           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:41         ens5    887.00    345.00   4989.71    151.29      0.00      0.00      0.00      0.00
+
+17:43:41        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:42           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:42         ens5    556.00    355.00   2410.34    139.48      0.00      0.00      0.00      0.00
+
+17:43:42        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:43           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:43         ens5    817.00    405.00   4274.02    104.22      0.00      0.00      0.00      0.00
+
+17:43:43        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:44           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:44         ens5    630.00    393.00   2546.57    109.65      0.00      0.00      0.00      0.00
+
+17:43:44        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:45           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:45         ens5    863.00    460.00   4409.45    135.59      0.00      0.00      0.00      0.00
+
+17:43:45        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:46           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:46         ens5    504.00    292.00   2310.74     74.63      0.00      0.00      0.00      0.00
+
+17:43:46        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:47           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:47         ens5    802.00    391.00   4360.43     93.04      0.00      0.00      0.00      0.00
+
+17:43:47        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:48           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:48         ens5    600.00    357.00   2888.22     85.41      0.00      0.00      0.00      0.00
+
+17:43:48        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:49           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:49         ens5    653.00    482.00   2518.61    128.19      0.00      0.00      0.00      0.00
+
+17:43:49        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:50           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:50         ens5    673.00    752.00    661.35    227.56      0.00      0.00      0.00      0.00
+
+17:43:50        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:51           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:51         ens5    669.00    748.00   1009.39    257.77      0.00      0.00      0.00      0.00
+
+17:43:51        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:52           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:52         ens5    913.00   1042.00   1096.51    335.54      0.00      0.00      0.00      0.00
+
+17:43:52        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:53           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:53         ens5    516.00    509.00   1074.98    122.69      0.00      0.00      0.00      0.00
+
+17:43:53        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:54           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:54         ens5    498.00    541.00    627.54    153.66      0.00      0.00      0.00      0.00
+
+17:43:54        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:55           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:55         ens5    539.00    580.00    781.16    153.71      0.00      0.00      0.00      0.00
+
+17:43:55        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:56           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:56         ens5   1162.00   1277.00   1432.71    380.06      0.00      0.00      0.00      0.00
+
+17:43:56        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:57           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:57         ens5    829.00    878.00   1149.16    254.78      0.00      0.00      0.00      0.00
+
+17:43:57        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:58           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:58         ens5    606.00    714.00    805.45    185.33      0.00      0.00      0.00      0.00
+
+17:43:58        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:43:59           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:43:59         ens5    522.00    543.00    435.26    157.11      0.00      0.00      0.00      0.00
+
+17:43:59        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:00           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:00         ens5    443.00    475.00    525.48    122.53      0.00      0.00      0.00      0.00
+
+17:44:00        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:01           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:01         ens5    706.00    908.00    864.59    297.43      0.00      0.00      0.00      0.00
+
+17:44:01        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:02           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:02         ens5    770.00    863.00   1063.24    267.87      0.00      0.00      0.00      0.00
+
+17:44:02        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:03           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:03         ens5    491.00    596.00    636.77    145.28      0.00      0.00      0.00      0.00
+
+17:44:03        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:04           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:04         ens5    722.00    804.00   1028.23    226.64      0.00      0.00      0.00      0.00
+
+17:44:04        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:05           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:05         ens5    761.00    773.00    897.12    245.32      0.00      0.00      0.00      0.00
+
+17:44:05        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:06           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:06         ens5    422.00    480.00    592.26    131.86      0.00      0.00      0.00      0.00
+
+17:44:06        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:07           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:07         ens5    449.00    551.00    570.34    136.07      0.00      0.00      0.00      0.00
+
+17:44:07        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:08           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:08         ens5   1840.00   2130.00   1540.67    626.30      0.00      0.00      0.00      0.00
+
+17:44:08        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:09           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:09         ens5   1345.00   1616.00   1096.11    452.37      0.00      0.00      0.00      0.00
+
+17:44:09        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:10           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:10         ens5   2155.00   2385.00   1773.27    702.00      0.00      0.00      0.00      0.00
+
+17:44:10        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:11           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:11         ens5   1333.00   1298.00   1380.07    467.00      0.00      0.00      0.00      0.00
+
+17:44:11        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:12           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:12         ens5    795.00    895.00   1026.94    278.45      0.00      0.00      0.00      0.00
+
+17:44:12        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:13           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:13         ens5   2012.00   2375.00   1639.39    703.82      0.00      0.00      0.00      0.00
+
+17:44:13        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:14           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:14         ens5   1578.00   1832.00   1252.55    540.65      0.00      0.00      0.00      0.00
+
+17:44:14        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:15           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:15         ens5   2150.00   1976.00   1902.52    684.76      0.00      0.00      0.00      0.00
+
+17:44:15        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:16           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:16         ens5    940.00    892.00    965.54    280.25      0.00      0.00      0.00      0.00
+
+17:44:16        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:17           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:17         ens5    941.00   1097.00   1021.32    316.05      0.00      0.00      0.00      0.00
+
+17:44:17        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:18           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:18         ens5   2480.00   2854.00   1926.40    854.34      0.00      0.00      0.00      0.00
+
+17:44:18        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:19           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:19         ens5   1598.00   1838.00   1888.24    559.61      0.00      0.00      0.00      0.00
+
+17:44:19        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:20           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:20         ens5   1422.00   1117.00   2353.00    406.69      0.00      0.00      0.00      0.00
+
+17:44:20        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:21           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:21         ens5    853.00    956.00   1223.55    334.71      0.00      0.00      0.00      0.00
+
+17:44:21        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:22           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:22         ens5   2278.00   2630.00   2680.88    845.35      0.00      0.00      0.00      0.00
+
+17:44:22        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:23           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:23         ens5   1835.00   2116.00   1956.33    649.80      0.00      0.00      0.00      0.00
+
+17:44:23        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:24           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:24         ens5   1366.00   1005.00   2364.40    380.73      0.00      0.00      0.00      0.00
+
+17:44:24        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:25           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:25         ens5    705.00    858.00   1065.97    246.18      0.00      0.00      0.00      0.00
+
+17:44:25        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:26           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:26         ens5   1261.00   1494.00   1458.74    404.45      0.00      0.00      0.00      0.00
+
+17:44:26        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:27           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:27         ens5   1951.00   2200.00   1572.80    662.81      0.00      0.00      0.00      0.00
+
+17:44:27        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:28           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:28         ens5   3175.00   3667.00   1249.36   1124.56      0.00      0.00      0.00      0.00
+
+17:44:28        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:29           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:29         ens5   2467.00   2849.00    614.42    864.50      0.00      0.00      0.00      0.00
+
+17:44:29        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:30           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:30         ens5   3407.00   3831.00    869.59   1216.55      0.00      0.00      0.00      0.00
+
+17:44:30        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:31           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:31         ens5   2323.00   2637.00    651.70    878.00      0.00      0.00      0.00      0.00
+
+17:44:31        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:32           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:32         ens5   2596.00   2204.00    778.14    899.68      0.00      0.00      0.00      0.00
+
+17:44:32        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:33           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:33         ens5   2422.00   2508.00    620.41    863.40      0.00      0.00      0.00      0.00
+
+17:44:33        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:34           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:34         ens5   3390.00   3806.00    838.98   1211.90      0.00      0.00      0.00      0.00
+
+17:44:34        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:35           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:35         ens5   2435.00   2865.00    600.87    862.81      0.00      0.00      0.00      0.00
+
+17:44:35        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:36           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:36         ens5   2808.00   3359.00    700.22   1040.76      0.00      0.00      0.00      0.00
+
+17:44:36        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:37           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:37         ens5   2298.00   2700.00    564.00    809.70      0.00      0.00      0.00      0.00
+
+17:44:37        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:38           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:38         ens5   3327.00   3820.00    813.76   1199.16      0.00      0.00      0.00      0.00
+
+17:44:38        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:39           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:39         ens5   2234.00   2553.00    547.92    786.04      0.00      0.00      0.00      0.00
+
+17:44:39        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:40           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:40         ens5   3297.00   3726.00    855.14   1211.08      0.00      0.00      0.00      0.00
+
+17:44:40        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:41           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:41         ens5   2157.00   2500.00    616.61    830.04      0.00      0.00      0.00      0.00
+
+17:44:41        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:42           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:42         ens5   3287.00   3749.00    937.03   1206.66      0.00      0.00      0.00      0.00
+
+17:44:42        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:43           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:43         ens5   2367.00   2782.00    581.85    851.59      0.00      0.00      0.00      0.00
+
+17:44:43        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:44           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:44         ens5   2955.00   3357.00    792.43   1052.66      0.00      0.00      0.00      0.00
+
+17:44:44        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:45           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:45         ens5   2151.00   2579.00    558.62    832.24      0.00      0.00      0.00      0.00
+
+17:44:45        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:46           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:46         ens5   2850.00   3276.00    706.78   1024.48      0.00      0.00      0.00      0.00
+
+17:44:46        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:47           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:47         ens5   2401.00   2848.00    596.83    879.37      0.00      0.00      0.00      0.00
+
+17:44:47        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:48           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:48         ens5   3303.00   3797.00    806.41   1199.19      0.00      0.00      0.00      0.00
+
+17:44:48        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:49           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:49         ens5   2102.00   2357.00    510.30    739.40      0.00      0.00      0.00      0.00
+
+17:44:49        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:50           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:50         ens5   3219.00   3750.00    814.29   1135.34      0.00      0.00      0.00      0.00
+
+17:44:50        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:51           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:51         ens5   2383.00   2777.00    682.25    926.82      0.00      0.00      0.00      0.00
+
+17:44:51        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:52           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:52         ens5   3010.00   3419.00    864.87   1108.32      0.00      0.00      0.00      0.00
+
+17:44:52        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:53           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:53         ens5   3377.00   3754.00    815.24   1183.62      0.00      0.00      0.00      0.00
+
+17:44:53        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:54           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:54         ens5   2096.00   2454.00    512.69    758.07      0.00      0.00      0.00      0.00
+
+17:44:54        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:55           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:55         ens5   2595.00   3023.00    633.25    922.12      0.00      0.00      0.00      0.00
+
+17:44:55        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:56           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:56         ens5   2961.00   3392.00    725.59   1064.48      0.00      0.00      0.00      0.00
+
+17:44:56        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:57           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:57         ens5   3343.00   3869.00    832.59   1224.59      0.00      0.00      0.00      0.00
+
+17:44:57        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:58           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:58         ens5   2157.00   2434.00    525.80    763.33      0.00      0.00      0.00      0.00
+
+17:44:58        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:44:59           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:44:59         ens5   2693.00   3114.00    660.22    969.56      0.00      0.00      0.00      0.00
+
+17:44:59        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:45:00           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:45:00         ens5   2736.00   3210.00    706.93    990.16      0.00      0.00      0.00      0.00
+
+17:45:00        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:45:01           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:45:01         ens5   2841.00   3355.00    801.62   1122.93      0.00      0.00      0.00      0.00
+
+17:45:01        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+17:45:02           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+17:45:02         ens5    331.00    370.00    196.24    117.76      0.00      0.00      0.00      0.00

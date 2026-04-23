@@ -1,0 +1,9 @@
+workload,threads,transactions_per_sec,queries_per_sec,avg_latency_ms,p95_latency_ms,ignored_errors_per_sec,reconnects_per_sec
+oltp_read_only,16,70.57,1129.16,226.52,376.49,0.00,0.00
+oltp_read_only,32,75.34,1205.46,424.40,694.45,0.00,0.00
+oltp_read_only,4,47.18,754.92,84.76,164.45,0.00,0.00
+oltp_read_only,8,59.75,956.05,133.84,227.40,0.00,0.00
+oltp_read_write,16,64.05,1280.97,249.67,467.30,0.00,0.00
+oltp_read_write,32,80.55,1610.94,396.91,623.33,0.00,0.00
+oltp_read_write,4,32.35,647.06,123.57,215.44,0.00,0.00
+oltp_read_write,8,42.93,858.57,186.31,308.84,0.00,0.00
